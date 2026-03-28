@@ -1,0 +1,210 @@
+<img src="covers/aioverse-cover-v1.png" alt="AIOVERSE Brand Assets" width="100%"/>
+
+# AIOVERSE Brand Assets
+
+> Official brand asset repository for the **AIOVERSE** ecosystem — logos, marks, icons, social assets, color swatches, and typography.
+
+[![MIT License](https://img.shields.io/badge/license-MIT-00E5FF?style=flat-square)](LICENSE)
+[![Assets](https://img.shields.io/badge/assets-40%20files-0D7377?style=flat-square)](#folder-structure)
+[![Convention](https://img.shields.io/badge/naming-kebab--case-00FFB0?style=flat-square)](#naming-convention)
+
+-----
+
+## Brands in this Repository
+
+|Brand           |Description                                            |
+|----------------|-------------------------------------------------------|
+|**AIOVERSE**    |Parent ecosystem — AI, IoT, drone intelligence platform|
+|**Aiotize Inc.**|DeepTech startup — AI-powered drone / UAV solutions    |
+
+-----
+
+## Folder Structure
+
+```
+aioverse-brand-assets-repo/
+├── logos/
+│   ├── svg/          # Scalable vector logos & marks
+│   ├── webp/         # Rasterized WebP logos & marks
+│   └── source/       # Editable source files (.ai)
+├── icons/            # UI icons & app icon variants
+├── social/
+│   ├── banners/      # YouTube, Facebook platform banners
+│   ├── backgrounds/  # WhatsApp and chat backgrounds
+│   └── profile/      # Profile picture assets (pfp)
+├── covers/           # Repository / presentation covers
+├── colors/           # Color swatch reference images
+├── fonts/            # Brand typography packages (.zip)
+├── raw/              # Unprocessed source imagery
+└── docs/             # Brand documentation & token specs
+```
+
+-----
+
+## Naming Convention
+
+All assets follow a unified **kebab-case** pattern:
+
+```
+{brand}-{category}-{variant}-{theme}[-{size}][-v{N}].{ext}
+```
+
+**Segments:**
+
+|Segment              |Values                                                                                      |
+|---------------------|--------------------------------------------------------------------------------------------|
+|`{brand}`            |`aioverse`, `aiotize`, `font`                                                               |
+|`{category}`         |`logo`, `mark`, `icon`, `banner`, `bg`, `pfp`, `cover`, `color`                             |
+|`{variant}`          |`full`, `rounded`, `tagline`, `grid`, `gradient`, `youtube`, `facebook`, `whatsapp`, `gmail`|
+|`{theme}`            |`electric-aqua`, `midnight-teal`, `soft-white`, `electric-blue`, `gradient`                 |
+|`{size}` *(optional)*|`2560x1440`, `820x312`, `300px`                                                             |
+|`{v}` *(optional)*   |`v1`, `v2`, `v3` — when multiple versions of the same asset exist                           |
+
+**Rules:**
+
+1. All lowercase, no spaces, no underscores — hyphens only
+1. Brand prefix is always first (`aioverse-` / `aiotize-`); fonts use `font-`
+1. No parentheses, dots, or special characters in filenames
+1. SVG and WebP of the same asset share the same base name
+1. Duplicate assets are versioned with `-v{N}` suffix before extension
+1. All docs live in `docs/` with readable kebab names
+
+See [`docs/NAMING_CONVENTION.md`](docs/NAMING_CONVENTION.md) for the full spec and rename mapping.
+
+-----
+
+## Available Logos
+
+### Full Logo (Wordmark + Mark)
+
+|Theme        |SVG                                        |WebP                                         |
+|-------------|-------------------------------------------|---------------------------------------------|
+|Electric Aqua|`logos/svg/aioverse-logo-electric-aqua.svg`|`logos/webp/aioverse-logo-electric-aqua.webp`|
+|Midnight Teal|`logos/svg/aioverse-logo-midnight-teal.svg`|`logos/webp/aioverse-logo-midnight-teal.webp`|
+|Soft White   |`logos/svg/aioverse-logo-soft-white.svg`   |`logos/webp/aioverse-logo-soft-white.webp`   |
+
+### Logomark (Symbol Only)
+
+|Theme         |SVG                                        |WebP                                         |
+|--------------|-------------------------------------------|---------------------------------------------|
+|Electric Aqua |`logos/svg/aioverse-mark-electric-aqua.svg`|`logos/webp/aioverse-mark-electric-aqua.webp`|
+|Midnight Teal |`logos/svg/aioverse-mark-midnight-teal.svg`|`logos/webp/aioverse-mark-midnight-teal.webp`|
+|Soft White    |`logos/svg/aioverse-mark-soft-white.svg`   |`logos/webp/aioverse-mark-soft-white.webp`   |
+|Midnight (Alt)|—                                          |`logos/webp/aioverse-mark-midnight.webp`     |
+|Soft White v2 |—                                          |`logos/webp/aioverse-mark-soft-white-v2.webp`|
+
+### Source
+
+|File                                  |Format                             |
+|--------------------------------------|-----------------------------------|
+|`logos/source/aioverse-logo-source.ai`|Adobe Illustrator (editable master)|
+
+-----
+
+## Icons
+
+|Variant                |File                                    |
+|-----------------------|----------------------------------------|
+|Grid / Mesh            |`icons/aioverse-icon-grid.webp`         |
+|Rounded (Gmail / Email)|`icons/aioverse-icon-rounded-gmail.webp`|
+|Soft White             |`icons/aioverse-icon-soft-white.webp`   |
+|On White Background    |`icons/aioverse-icon-on-white.webp`     |
+|Gradient               |`icons/aioverse-icon-gradient.webp`     |
+
+-----
+
+## Social & Platform Assets
+
+### Banners
+
+|Platform               |File                                                      |Dimensions |
+|-----------------------|----------------------------------------------------------|-----------|
+|YouTube Channel Banner |`social/banners/aioverse-banner-youtube-2560x1440.webp`   |2560 × 1440|
+|YouTube Banner (Alt v1)|`social/banners/aioverse-banner-youtube-2560x1440-v1.webp`|2560 × 1440|
+|Facebook Cover         |`social/banners/aioverse-banner-facebook-820x312.webp`    |820 × 312  |
+
+### Backgrounds
+
+|Platform             |File                                                     |
+|---------------------|---------------------------------------------------------|
+|WhatsApp             |`social/backgrounds/aioverse-bg-whatsapp.webp`           |
+|WhatsApp + Tagline   |`social/backgrounds/aioverse-bg-whatsapp-tagline.webp`   |
+|WhatsApp + Tagline v2|`social/backgrounds/aioverse-bg-whatsapp-tagline-v2.webp`|
+
+### Profile Pictures
+
+|Brand   |File                                   |
+|--------|---------------------------------------|
+|AIOVERSE|`social/profile/aioverse-pfp.webp`     |
+|Aiotize |`social/profile/aiotize-pfp-300px.webp`|
+
+-----
+
+## Covers
+
+|File                          |Use                            |
+|------------------------------|-------------------------------|
+|`covers/aioverse-cover-v1.png`|README / pitch deck cover      |
+|`covers/aioverse-cover-v2.png`|README / pitch deck cover (alt)|
+
+-----
+
+## Brand Colors
+
+|Name         |Hex      |Swatch File                               |
+|-------------|---------|------------------------------------------|
+|Electric Aqua|`#00E5FF`|`colors/aioverse-color-electric-blue.webp`|
+|Midnight Teal|`#0D7377`|`colors/aioverse-color-midnight-teal.webp`|
+|Soft White   |`#E8F4F8`|—                                         |
+
+Full token spec: [`docs/brand-tokens.md`](docs/brand-tokens.md)
+
+-----
+
+## Typography
+
+|Font Family         |Archive                          |Role                    |
+|--------------------|---------------------------------|------------------------|
+|**Sarpanch**        |`fonts/font-sarpanch.zip`        |Display / Hero Headlines|
+|**Nohemi**          |`fonts/font-nohemi.zip`          |Subheadings / UI Labels |
+|**Tokyo Trail Mono**|`fonts/font-tokyo-trail-mono.zip`|Code / Monospace        |
+|**Nebula**          |`fonts/font-nebula.zip`          |Decorative / Special Use|
+|**Helvetica Neue**  |`fonts/font-helvetica-neue.zip`  |Body / Paragraph Text   |
+
+-----
+
+## Documentation
+
+|File                                                    |Description                                            |
+|--------------------------------------------------------|-------------------------------------------------------|
+|[`docs/brand-system.md`](docs/brand-system.md)          |Full brand system — usage rules, spacing, do’s & don’ts|
+|[`docs/brand-tokens.md`](docs/brand-tokens.md)          |Design tokens — colors, type scale, spacing, elevation |
+|[`docs/NAMING_CONVENTION.md`](docs/NAMING_CONVENTION.md)|Naming convention spec + full rename mapping table     |
+
+-----
+
+## Quick Start
+
+Clone and explore:
+
+```bash
+git clone https://github.com/aioverse-dev/aioverse-brand-assets-repo.git
+cd aioverse-brand-assets-repo
+```
+
+Use the SVG logos wherever possible — fall back to WebP for platforms that don’t support vector.
+
+-----
+
+## Usage & License
+
+All brand assets are **© Aiotize Inc. / AIOVERSE**. Use of these assets is governed by the [MIT License](LICENSE) for open and attribution-based use, and the [AIOVERSE Brand System Guide](docs/brand-system.md) for commercial or co-marketing applications.
+
+> For brand partnership or co-marketing usage: **shivansh@aiotize.com**
+
+-----
+
+<p align="center">
+  Made with ♦ by <strong>Aiotize Inc.</strong> — Chandigarh, India<br/>
+  <sub>NVIDIA Inception Program · IIM Ahmedabad CIIE · IIM Bangalore NSRCEL</sub>
+</p>
